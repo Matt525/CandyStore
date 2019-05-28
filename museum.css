@@ -1,0 +1,160 @@
+
+/* Styles that you cannot find in this CSS file will likely be styled via bootstrap in primary HTML file (Museum.html) */
+
+
+body{
+    background-color: #f5d9df;
+}
+
+body > .navbar{
+    position: sticky;
+    
+}
+
+/* navbar styles */
+#Candybar .navbar-brand{
+    color: #ea1c2c;
+    font-size: 1.5rem;
+    
+    font-weight: 100;
+    
+}
+
+#Candybar .nav-link{
+    font-size: 1.5rem;
+    font-weight: 100;
+
+
+}
+
+#Candybar .nav-link:hover{
+    color: red;
+
+}
+
+
+
+
+
+
+/* Header text styles */
+
+#header-text h1
+{
+    color: white;
+    font-size: 4rem;
+    font-weight: 100;
+    
+}
+                                
+
+@media only screen and (max-width: 1360px){
+    #header-text  h1{
+        font-size: 3rem;
+        font-weight: 100;
+    }
+
+}
+
+
+
+
+/* Span line coloring */
+#header-text > h1 > span {
+    color: red;
+}
+
+
+
+
+/* ALL image sizing and spacing */
+#images{
+    height: 1000px;
+    margin-bottom: 10%;
+    
+}
+
+/* image fluid */
+div > .col-lg-6{
+    padding: 0%;
+}
+
+/* Paragraphs and Paragraph Title Styles/Media Queries */
+
+#title{
+    font-weight: 100;
+    margin-bottom: 10%;
+    color: #e11584
+}
+
+.p1{
+    color: purple;
+}
+
+.p2{
+    color: #e30047;
+}
+
+.fas{
+    font-size: 100px;
+    margin: 5%;
+}
+
+#First-letter{
+ font-size: 100px;
+ margin-bottom: 0px;
+ padding: 0%;
+ block-size: 0%;
+}
+
+
+#paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 5%;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+
+@media only screen and (max-width:992px){
+    #First-letter{
+        font-size: 50px;
+    }
+
+}
+
+#footer-nav{
+background-color: rgb(222, 192, 222);
+height: 75px;
+align-items: center;
+word-wrap: break-word;
+
+}
+
+
+.nav-link{
+    text-decoration-color: none; 
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+
+.nav-link:hover{
+    color: red; 
+}
+
+
+.navbar.scrolled{
+    background: rgb(222, 192, 222);
+    transition: background 1s;
+}
+
+/* Hide the scrollbar */
+::-webkit-scrollbar { 
+    display: none; 
+}
